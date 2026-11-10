@@ -1,0 +1,13 @@
+# 绝缘子缺陷检测训练依赖
+# 安装： pip install -r requirements.txt
+#
+# 说明：
+#   - torch 有 CPU / CUDA 两种版本，按自己的显卡选其一，装完可删掉本行注释；
+#   - 无 GPU 时 pip 默认装 CPU 版即可，训练速度慢但能跑通。
+
+ultralytics>=8.4.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24
+PyYAML>=6.0

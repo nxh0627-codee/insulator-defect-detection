@@ -1,0 +1,17 @@
+# 文本文件统一 LF，避免 Windows 换行反复改动
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
+
+# 二进制
+*.docx binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.pt binary

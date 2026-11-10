@@ -1,0 +1,22 @@
+# ---------- 数据与权重（体积大，不入库）----------
+InsulatorDataSet-master/
+insulator_yolo/datasets/
+insulator_yolo/yolov8n.pt
+insulator_yolo/runs/**/weights/
+insulator_yolo/runs/predict/
+
+# 训练过程的批次可视化（每张约 300 KB）
+insulator_yolo/runs/detect/*/*.jpg
+insulator_yolo/runs/detect/*/*.cache
+
+# ---------- 工具链缓存 ----------
+insulator_yolo/.ultralytics/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- 本地产物 ----------
+.backup/
+.dsh-office-*/
+*.log
