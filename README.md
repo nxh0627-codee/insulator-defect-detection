@@ -76,6 +76,16 @@ python conf_sweep.py --confs "0.02,0.05,0.07,0.1,0.15,0.25,0.35"
 
 评估汇总（`metrics.json`、`results.csv`、混淆矩阵、P-R 曲线、阈值扫描结果）都保留在库里。
 
+## 仓库与网络
+
+当前网络下 `github.com:443` 不可达，仓库改用 **SSH over 443**（`ssh.github.com:443`）推送。
+换机器后首次配置（前提：本机 SSH 公钥已添加到 GitHub 账户）：
+
+```powershell
+git config core.sshCommand "ssh -p 443 -o StrictHostKeyChecking=accept-new"
+git remote set-url origin git@ssh.github.com:jinqu-bot/insulator-defect-detection.git
+```
+
 ## 说明
 
 - 数据集 CPLID 仅提供"正常 / 缺陷"二级标注，因此本工程按**二分类检测**实现；"破损 / 自爆 / 闪络"的细分类需自有标注数据，列为后续工作。
