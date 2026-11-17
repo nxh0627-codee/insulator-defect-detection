@@ -6,14 +6,25 @@ YOLOv8 训练入口（CPLID 绝缘子缺陷检测）。
 会自动退化为「从随机初始化训练」（用包内的 yolov8n.yaml 结构），不会中途崩掉。
 
 用法：
-    python train.py                          # 默认 CPU 小规模预设
+    python train.py                          # 默认 CPU 小规模预设（基线：原 BCE 损失）
     python train.py --profile full           # 开题报告里的正式配置（需 GPU）
     python train.py --epochs 50 --imgsz 480  # 手动覆盖单项
     python train.py --resume                 # 断点续训
 
+损失层开关（消融实验用，见 improve.py）：
+    --focal-gamma 1.5      启用 Focal Loss（0 = 关闭）
+    --focal-alpha 0.25     Focal 的正样本权重（仅 gamma>0 生效）
+    --defect-weight 2.0    缺陷类 cls 损失权重（1.0 = 不加权）
+    --cache [ram|disk]     图片缓存加速；不带值时默认 ram
+
+例：
+    python train.py --focal-gamma 1.5 --focal-alpha 0.25 --defect-weight 2.0 \
+                    --cache ram --name D_focal_w2
+
 训练产物：
     runs/detect/<name>/weights/best.pt, last.pt
     runs/detect/<name>/results.csv, results.png, confusion_matrix.png, args.yaml
+    runs/detect/<name>/improve.json   # 损失层配置（args.yaml 里没有这几个自定义参数）
 """
 from __future__ import annotations
 
@@ -52,7 +63,14 @@ def parse_args(argv=None):
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--name", default=None, help="本次运行目录名")
     ap.add_argument("--project", type=Path, default=HERE / "runs" / "detect")
-    ap.add_argument("--cache", action="store_true", help="把图片缓存进内存/磁盘，加速后续 epoch")
+    ap.add_argument("--cache", nargs="?", const="ram", default=None, choices=["ram", "disk"],
+                    help="图片缓存加速：--cache / --cache ram 缓存到内存；--cache disk 缓存到磁盘")
+    ap.add_argument("--focal-gamma", type=float, default=0.0,
+                    help="Focal Loss 的 gamma（>0 启用；0 = 关闭，沿用原 BCE）")
+    ap.add_argument("--focal-alpha", type=float, default=0.25,
+                    help="Focal Loss 的 alpha（仅 gamma>0 时生效）")
+    ap.add_argument("--defect-weight", type=float, default=1.0,
+                    help="缺陷类（最后一个类别）的 cls 损失权重；1.0 = 不加权")
     ap.add_argument("--plots", action="store_true", help="额外保存训练曲线/预测样例图")
     ap.add_argument("--resume", action="store_true", help="从上次中断处继续训练")
     ap.add_argument("--offline", action="store_true",
@@ -93,6 +111,28 @@ def load_model(weights: str):
         return YOLO(fallback), fallback
 
 
+def _apply_improve(model, args):
+    """按命令行开关给损失打补丁（Focal + 类别权重），返回落盘用的配置。"""
+    cfg = {
+        "focal_gamma": args.focal_gamma,
+        "focal_alpha": args.focal_alpha,
+        "defect_weight": args.defect_weight,
+        "cache": args.cache,
+        "enabled": False,
+    }
+    if args.focal_gamma <= 0 and args.defect_weight == 1.0:
+        print("[改进] 未启用（focal_gamma=0 且 defect_weight=1.0），沿用原 BCE 损失")
+        return cfg
+
+    from improve import patch_loss
+
+    # 约定：类别 0 = insulator（正常），最后一个类别 = defect；
+    # 真实 nc 由 trainer 用数据集决定，所以这里只传"缺陷类倍数"，由损失类按 nc 展开
+    cfg.update(patch_loss(model.model, focal_gamma=args.focal_gamma,
+                          focal_alpha=args.focal_alpha, defect_weight=args.defect_weight))
+    return cfg
+
+
 def main(argv=None):
     args = parse_args(argv)
 
@@ -113,6 +153,8 @@ def main(argv=None):
     print(f"[数据] {args.data}")
 
     model, used_weights = load_model(args.model)
+    improve_cfg = _apply_improve(model, args)
+    print(f"[改进] config={improve_cfg}")
 
     t0 = time.time()
     results = model.train(
@@ -128,7 +170,7 @@ def main(argv=None):
         patience=args.patience,
         seed=args.seed,
         deterministic=True,
-        cache=args.cache,
+        cache=False if args.cache is None else args.cache,
         plots=args.plots,
         resume=args.resume,
         verbose=True,
@@ -137,8 +179,17 @@ def main(argv=None):
 
     save_dir = Path(model.trainer.save_dir)
     best = save_dir / "weights" / "best.pt"
+
+    # 把损失层配置落到运行目录，args.yaml 里没有这几个自定义参数，复现时看 improve.json
+    import json
+    improve_cfg["weights"] = str(used_weights)
+    improve_cfg["finished_at"] = time.strftime("%Y-%m-%d %H:%M:%S")
+    (save_dir / "improve.json").write_text(
+        json.dumps(improve_cfg, ensure_ascii=False, indent=2), encoding="utf-8")
+
     print("\n" + "=" * 70)
     print(f"训练结束，用时 {dt / 60:.1f} 分钟")
+    print(f"损失配置：{improve_cfg}")
     print(f"权重：{best if best.exists() else save_dir / 'weights' / 'last.pt'}")
     print(f"结果：{save_dir / 'results.csv'}")
     print("=" * 70)
