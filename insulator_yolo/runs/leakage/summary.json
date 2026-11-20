@@ -1,0 +1,18 @@
+{
+  "images": 848,
+  "train": 678,
+  "val": 170,
+  "threshold": 12,
+  "duplicate_pairs": 9,
+  "cross_split_pairs": 3,
+  "leaked_val_images": 3,
+  "leaked_val_ratio": 0.0176,
+  "groups_total": 839,
+  "groups_with_multiple": 8,
+  "largest_group": 3,
+  "group_size_hist": {
+    "1": 831,
+    "2": 7,
+    "3": 1
+  }
+}

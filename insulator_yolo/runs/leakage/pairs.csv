@@ -1,0 +1,10 @@
+﻿img_a,split_a,img_b,split_b,hamming,cross_split
+n_0150.jpg,train,n_2984.jpg,train,0,
+n_1938.jpg,train,n_1608.jpg,train,0,
+n_1876.jpg,train,n_0852.jpg,train,0,
+d_206.jpg,train,d_221.jpg,val,10,YES
+n_1401.jpg,train,n_1845.jpg,train,12,
+d_048.jpg,train,d_225.jpg,val,12,YES
+d_031.jpg,train,n_3352.jpg,val,12,YES
+d_206.jpg,train,d_006.jpg,train,12,
+n_1446.jpg,train,n_0260.jpg,train,12,
