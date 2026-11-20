@@ -1,0 +1,16 @@
+{
+  "weights": "runs\\detect\\ning_baseline-2\\weights\\best.pt",
+  "conf": 0.01,
+  "iou_threshold": 0.5,
+  "val_images": 170,
+  "val_defect_images": 50,
+  "images_with_hit": 0,
+  "image_level_recall": 0.0,
+  "gt_defect_boxes": 50,
+  "pred_defect_boxes": 0,
+  "fn": 50,
+  "fp": 0,
+  "loc_error": 0,
+  "fn_area_median": 3009.0,
+  "fp_conf_median": null
+}

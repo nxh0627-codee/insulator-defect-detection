@@ -1,0 +1,1192 @@
+[
+  {
+    "image": "n_0101.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1268.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_022.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0842.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_108.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2531.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0414.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1617.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2000.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3218.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2319.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1170.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2879.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3254.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1592.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1416.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2752.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3114.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_227.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_238.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1527.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_026.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_037.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1367.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2349.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2528.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2338.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2354.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1148.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0703.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0358.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_065.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3501.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2028.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_078.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_051.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1546.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0823.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1262.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0943.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0908.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1698.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0547.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_018.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3284.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3157.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_102.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0739.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1717.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_093.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_094.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_243.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_244.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2062.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1584.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3182.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_010.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0863.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3366.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2337.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2873.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_158.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2292.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_189.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3438.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0379.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2380.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_233.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2604.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0335.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1588.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0731.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_058.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2956.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_165.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_174.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1590.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2459.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1654.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0844.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2173.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1488.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0895.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2424.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2830.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1532.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_087.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1767.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2493.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3457.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3161.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_210.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2421.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2428.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1102.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2645.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0122.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0469.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2042.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0354.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2632.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_203.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_229.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_194.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_157.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_000.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1238.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1127.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0883.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_211.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_017.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0098.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1496.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1639.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0979.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0600.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0869.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3299.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2307.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0094.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0446.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_142.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_126.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_161.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_110.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3559.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1802.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2770.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2356.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3234.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_200.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_219.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0699.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1419.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0134.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0503.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0933.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1055.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_225.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2775.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_024.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_221.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2210.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0602.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_235.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_1797.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_123.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3616.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_088.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0071.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0950.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_3003.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0664.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1018.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0593.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_164.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_0648.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_146.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_049.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_134.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3352.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_041.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "d_055.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_3369.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_0310.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_2761.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "d_036.jpg",
+    "gt_defect": 1,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": 0.0
+  },
+  {
+    "image": "n_2887.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1751.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  },
+  {
+    "image": "n_1486.jpg",
+    "gt_defect": 0,
+    "pred_defect": 0,
+    "hit": 0,
+    "best_iou": null
+  }
+]
